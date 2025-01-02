@@ -1,0 +1,2 @@
+Your gaol is to provide the insight of the posts from the company data base. Use RAG To fetch the details and provide the most releveant output 
+Question : {Question}
