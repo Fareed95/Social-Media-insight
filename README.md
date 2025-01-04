@@ -15,6 +15,16 @@ Social media platforms generate an overwhelming amount of engagement data, which
 Using LangFlow, Astra DB, and OpenAI, this project creates a user-friendly interface to solve the problem of extracting meaningful insights from raw social media engagement data.
 
 ---
+### How It Works
+1. **Input Prompt**: The user provides a query, such as asking for engagement metrics for a specific post type (e.g., "carousel").
+2. **Data Retrieval (Astra DB Tool)**: LangFlow uses the Astra DB integration to fetch the relevant data (likes, shares, comments) for the specified post type.
+3. **Data Processing (OpenAI Agent)**: The retrieved data is sent to the OpenAI agent via LangFlow's tool terminal for advanced analysis.
+4. **Output**: The OpenAI agent generates insights, which are then displayed to the user in the chat interface.
+
+This streamlined workflow eliminates the complexity of manual data querying and processing, enabling seamless data analysis and visualization.
+
+
+---
 
 ## LangFlow Installation Using `uv` Library
 
@@ -58,7 +68,7 @@ Follow the steps below to set up LangFlow with the help of the `uv` library for 
 
 2. **Import the provided JSON file:**
    - Click on the "Import" button in the LangFlow UI.
-   - Upload the provided `social_media_flow.json` file.
+   - Upload the provided `open_ai_langflow_social_media_insights.json` file.
 
 3. **Configure API Keys:**
    - Replace placeholders in the flow with your Astra DB API endpoint and OpenAI API key.
