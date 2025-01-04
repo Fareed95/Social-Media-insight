@@ -104,5 +104,5 @@ This project demonstrates the power of integrating LangFlow, Astra DB, and OpenA
 
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the APACHE 2.0 License.
 
