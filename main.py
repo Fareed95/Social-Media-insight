@@ -11,19 +11,17 @@ except ImportError:
     upload_file = None
 
 BASE_API_URL = "http://127.0.0.1:7860"
-FLOW_ID = "d541cbfc-06d6-49c6-ba87-1234397a9eb4"
+FLOW_ID = "fb7dec63-bd62-4ac9-86cf-6b63fbb493e3"
 ENDPOINT = "" # You can set a specific endpoint name in the flow settings
 
 # You can tweak the flow by adding a tweaks dictionary
 # e.g {"OpenAI-XXXXX": {"model_name": "gpt-4"}}
 TWEAKS = {
-  "ChatInput-uoKcl": {},
-  "ChatOutput-Grmhu": {},
-  "Prompt-gOsed": {},
-  "AstraDB-3lH4J": {},
-  "ParseData-zGgpE": {},
-  "HuggingFaceInferenceAPIEmbeddings-GiMxG": {},
-  "GroqModel-5xyhB": {}
+  "ChatOutput-ld8Ou": {},
+  "AstraDBToolComponent-vJJbl": {},
+  "Agent-ieGPK": {},
+  "ChatInput-9VKKQ": {},
+  "Agent-LaHXl": {}
 }
 
 def run_flow(message: str,
