@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project focuses on creating a streamlined solution to analyze and visualize engagement data from social media platforms. By integrating Astra DB for data storage and OpenAI's capabilities for insights, the project leverages LangFlow as the central tool to orchestrate the data flow and interaction. Users can easily query and visualize metrics such as average likes, shares, and comments for different types of posts, enabling actionable insights for content optimization and audience engagement.
-You can alse checkout the video of the project [here](https://www.youtube.com/watch?v=Z6Q6wQ5Q6
+You can alse checkout the video of the project [here](https://youtu.be/BONf_0d16PI?si=H7NJSWcvPfEst03v)
 
 ## Problem Statement
 Social media platforms generate an overwhelming amount of engagement data, which can be challenging to analyze efficiently. This project addresses the need for a system that can:
